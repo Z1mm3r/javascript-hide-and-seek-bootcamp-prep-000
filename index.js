@@ -17,3 +17,8 @@ function increaseRankBy(n)
     selectorList[i].innerHTML = (parseInt(selectorList[i].innerHTML,10) + n).toString();
   }
 }
+
+function deepestChild()
+{
+  
+}
