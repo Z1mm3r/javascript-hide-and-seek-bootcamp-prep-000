@@ -12,8 +12,6 @@ function increaseRankBy(n)
 {
   var selectorList = document.querySelectorAll("#app ul.ranked-List li");
   
-  console.log(selectorList);
-  
   for (let i = 0; i < selectorList.length; i++)
   {
     selectorList[i].innerHTML = (praseInt(selectorList[i].innerHTML,10) + n).toString();
