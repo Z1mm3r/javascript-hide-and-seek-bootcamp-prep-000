@@ -33,11 +33,11 @@ function deepestChild()
     {
       
        selectorListArray.push(selectorList[i].querySelectorAll("div"));
-       
+       selector = selectorList[i];
     }
     
   }
   
-  return selectorList[0];
+  return selector;
   
 }
