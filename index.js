@@ -36,6 +36,6 @@ function deepestChild()
     
   }
   
-  return selectorList;
+  return selectorList[0];
   
 }
