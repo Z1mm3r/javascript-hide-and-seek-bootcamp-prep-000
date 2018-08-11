@@ -35,7 +35,7 @@ function deepestChild()
     }
     
   }
-  console.log("boom /n")
+  console.log("boom \n")
   
   
   
