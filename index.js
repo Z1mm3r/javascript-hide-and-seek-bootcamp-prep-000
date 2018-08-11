@@ -27,7 +27,7 @@ function deepestChild()
   
   while(selectorListArray.length > 0)
   {
-    var  tempList = selectorListArray.pop();
+    selectorList = selectorListArray.pop();
     selectorListArray.push(tempList.querySelectorAll("div"));
   }
   
