@@ -38,6 +38,6 @@ function deepestChild()
     
   }
   
-  return selectorList[0].querySelector("div");
+  return selectorList[0];
   
 }
