@@ -31,4 +31,6 @@ function deepestChild()
     selectorListArray.push(tempList.querySelectorAll("div"));
   }
   
+  return selectorList[0];
+  
 }
