@@ -33,6 +33,7 @@ function deepestChild()
     {
       
        selectorListArray.push(selectorList[i].querySelector("div"));
+       selector = selectorList[i];
      
     }
     
