@@ -28,6 +28,11 @@ function deepestChild()
   while(selectorListArray.length > 0)
   {
     selectorList = selectorListArray.pop();
+    
+    for(let i = 0; i > selectorList.length; i++;)
+    {
+      
+    }
     selectorListArray.push(selectorList.querySelectorAll("div"));
   }
   
