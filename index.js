@@ -31,9 +31,9 @@ function deepestChild()
     
     for(let i = 0; i > selectorList.length; i++;)
     {
-      
+      selectorListArray.push(selectorList[i].querySelectorAll("div"));
     }
-    selectorListArray.push(selectorList.querySelectorAll("div"));
+    
   }
   
   return selectorList[0];
