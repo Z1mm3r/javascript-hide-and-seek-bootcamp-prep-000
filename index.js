@@ -36,7 +36,8 @@ function deepestChild()
     
   }
   
-  console.log("boom");
+  console.log("");
+  console.log("boom")
   
   return selectorList[0].querySelector("div");
   
