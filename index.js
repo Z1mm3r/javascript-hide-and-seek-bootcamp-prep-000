@@ -29,7 +29,7 @@ function deepestChild()
   {
     selectorList = selectorListArray.pop();
     
-    for(let i = 0; i > selectorList.length; i++;)
+    for(let i = 0; i > selectorList.length; i++)
     {
       selectorListArray.push(selectorList[i].querySelectorAll("div"));
     }
