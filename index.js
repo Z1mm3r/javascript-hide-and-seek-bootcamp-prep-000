@@ -36,6 +36,8 @@ function deepestChild()
     
   }
   
+  console.log("Test");
+  
   return selectorList[0].querySelector("div");
   
 }
