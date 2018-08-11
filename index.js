@@ -23,6 +23,7 @@ function deepestChild()
   var selector = document.getElementById('grand-node')
   var selectorListArray = [];
   var selectorList = selector.querySelectorAll("div");
+  selectorListArray.push(selectorList);
   
   while(selectorList.length > 0)
   {
