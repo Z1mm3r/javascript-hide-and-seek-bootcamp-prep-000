@@ -31,7 +31,8 @@ function deepestChild()
     
     for(let i = 0; i < selectorList.length; i++)
     {
-       console.log(selectorListArray.push(selectorList[i].querySelectorAll("div")));
+      console.log(selectorList[i]);
+       selectorListArray.push(selectorList[i].querySelectorAll("div"));
      
     }
     
